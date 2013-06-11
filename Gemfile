@@ -14,3 +14,12 @@ gem 'rails-api',        '~> 0.1'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
+
+group :development, :test do
+  gem 'debugger'
+end
+
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+end
